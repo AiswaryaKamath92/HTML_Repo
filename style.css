@@ -1,0 +1,13 @@
+body {
+            background-color: dodgerblue;
+        }
+h1   {
+            color:hex(ff,00,00);
+        }
+h3   {
+            border: 1px solid black;
+            color:violet
+        }
+h6{
+            text-align: center;
+        }
