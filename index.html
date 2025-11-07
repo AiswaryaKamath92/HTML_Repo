@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="jpg" href="./scenery.jpg">
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid blueviolet;
+            /* border-collapse: collapse;  */
+            /* removes double borders */
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+        table{width:100%;}
+        th:nth-child(2){
+            width:70%
+        }
+    </style>
 </head>
-<body>
+
+<body style="background-image: url('./scenery.jpg');background-attachment: fixed;background-size: cover;" ;>
     <h1>Hello World</h1>
     <h3>This is a subheading</h3>
     <h6>This is a smaller heading</h6>
     <a href="mailto:sjkammath@gmail.com">Send email</a>
+    <table>
+        <caption>List of members</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Id</th>
+        </tr>
+        <tr>
+            <td>Anu</td>
+            <td>13</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Manu</td>
+            <td>12</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Vani</td>
+            <td>13</td>
+            <td>3</td>
+        </tr>
+    </table>
 </body>
+
 </html>
